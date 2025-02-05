@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-161185121-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-161185121-1');
+</script>
+
+<!-- jquery -->
+<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js?ver=1.3.2'></script>
+<script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js'></script>
+<script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+      <meta name="robots" content="noindex">
+
+    <title>Cinzia Rota 👩🏻‍💻 UX/UI designer – Appy2Help: Boarding Phase 3</title>
+
+<!-- Bootstrap core CSS -->
+  <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="../vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Custom styles for this template -->
+  <link href="../css/agency.min.css" rel="stylesheet">
+  <link href="../css/link.css" rel="stylesheet">
+  <style type= "text/css">
+   
+@font-face {
+    font-family: carinoi;
+    src: url('../css/fonts/carinoi.woff2') format('woff2'),
+         url('../css/fonts/carinoi.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+} 
+ 
+    @font-face {
+    font-family: carino;
+    src: url('../css/fonts/carino.woff2') format('woff2'),
+         url('../css/fonts/carino.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+    @font-face {
+    font-family: carinom;
+    src: url('../css/fonts/carinom.woff2') format('woff2'),
+         url('../css/fonts/carinom.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+    @font-face {
+    font-family: carinob;
+    src: url('../css/fonts/carinob.woff2') format('woff2'),
+         url('../css/fonts/carinob.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+      @font-face {
+      font-family: HankenGrotesk;
+      src: url('../css/fonts/HankenGrotesk-Regular.woff2') format('woff2');
+      }
+      @font-face {
+      font-family: HankenGroteskMedium;
+      src: url('../css/fonts/HankenGrotesk-Medium.woff2') format('woff2');
+      }
+      @font-face {
+      font-family: HankenGroteskBold;
+      src: url('../css/fonts/HankenGrotesk-Bold.woff2') format('woff2');
+      }
+      @font-face {
+      font-family: HankenGroteskBlack;
+      src: url('../css/fonts/HankenGrotesk-Black.woff2') format('woff2');
+      }
+
+
+    figure {
+      margin: 0 0 .2em 0;
+    }
+  </style>
+<!-- Hotjar Tracking Code for www.cinzia.me -->
+<script>
+  (function(h,o,t,j,a,r){
+      h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+      h._hjSettings={hjid:1279527,hjsv:6};
+      a=o.getElementsByTagName('head')[0];
+      r=o.createElement('script');r.async=1;
+      r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+      a.appendChild(r);
+  })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+
+<!-- Favicons -->
+<link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="img/favicon/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+<link rel="manifest" href="img/favicon/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="img/favicon/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+</head>
+
+  <body id="page-top">
+
+ 
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand js-scroll-trigger" href="../index.html">Cinzia Rota</a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+       
+
+      <i class="fas fa-bars"></i>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav text-uppercase ml-auto">
+        <li class="nav-item">
+
+<a class="nav-link js-scroll-trigger" href="boarding.html">Boarding pass scan</a>
+<a class="nav-link js-scroll-trigger" href="design-sprint.html">Design sprint</a>
+<a class="nav-link js-scroll-trigger" href="boarding2.html">Boarding</a>
+<a class="nav-link js-scroll-trigger" href="plug.html">Plug</a>
+<a class="nav-link js-scroll-trigger" href="travel.html">Flex travel</a>
+<a class="nav-link js-scroll-trigger" href="../small-deeds.html">Small deeds</a>
+<a class="nav-link js-scroll-trigger" href="../wellcom.html">Wellcom</a>
+<a class="nav-link js-scroll-trigger" href="../about.html">About</a>
+</li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+<!--END Navigation -->
+
+
+
+
+<section>
+                <figure class="img-fluid-big">
+                    <img src="../img/boarding2/initial.jpg" width="80%">
+                   </figure>
+</section>
+
+
+ <div class="container-p">
+      <section id="about">
+          
+        <div class="row-about">
+            <div class="col-lg-12 text-left">
+                  <h1 class="project-title">The boarding  <span class="KLMblue">of the future</span></h1>
+                 
+                 <h5>
+              Appy2Help is an app by KLM / Air France that enables ground staff <strong>help the passengers at the airport</strong> and that now supports the different phases of the boarding operations. 
+                    </h5><br><br><br>
+              </div>
+        </div>
+        </div>
+      </div>
+  </header>
+
+
+
+<!-- SKILLS -->
+<div class="container-bg">
+  <div class="container-skills">
+   <div class="row-skills">
+          <div class="col-lg-5 text-left">  <br>
+              <h14>Timeline </h14><br>
+              <h15>2019/2020 - 10 weeks<br><br>
+              <h14>Client </h14><br>
+              KLM / Air France<br><br>
+
+            <h14>Methods & Tools</h14><br>
+              Shadowing, contextual inquiries, interviews, survey, usability testing, Overflow, Sketch, Invision, iMovie, Jira, Confluence<br>
+              <br>
+            </div>
+              <div class="col-lg-1 text-left">  </div>
+            <div class="col-lg-6 text-left">  <br>
+              <h14>Team</h14><br>
+              <h15>Product Owner, Information Analyst, Business Analyst, 2 Developers, tester<br><br>
+
+              <h14>My role</h14><br>
+              Concept development, User research, UX design, UI design, Usability testing, Presentation video, Documentation<br></h15>
+            </div>
+
+            </div>
+          </div>
+      </div>
+    </div>
+
+</div>
+</div>
+
+<br><br>
+
+<div class="container-p">
+      <section id="about">
+        <div class="row-about">
+            <div class="col-lg-12 text-left"><br>
+
+
+          <h2 class="KLMblue">Goal</h2>
+              
+<h5><span class="Text TextStyles">
+After the successful launch of the <a href="boarding.html">digital boarding pass scan</a>, KLM wanted to implement the whole boarding process via its app Appy2Help.<br>
+Starting from the outcome of a <a href="design-sprint.html">design sprint</a>, I had to <strong>design a solution to support our staff</strong> in all the boarding operations.<br><br></h5>
+
+        <h2 class="KLMblue">Business goals</h2>
+        <h5>
+          <ul></ul>
+            <li>On-time performance</li>
+            <li>Efficiency</li>
+            <li>Ancillary revenue</li>
+            <li>Customer loyalty and satisfaction</li>
+             
+</ul>
+ </h5> 
+ <br> 
+
+<h2 class="KLMblue">Main challenges</h2>      
+          <h5>
+            <ul></ul>
+            <li>Dealing with a complex process involving several different roles</li>
+            <li>Technical contraints due to an API migration</li>
+            <li>Unexpected budget cuts and redefinition of the scope</li>
+          </h5>
+</div>
+  </div>         
+</div>
+
+</section> 
+  
+ <br><br>
+ 
+
+</div>
+ </div></div></div>  
+</section>
+</div>  
+ 
+
+<hr>
+
+<div class="container-p">
+ <section id="about">
+ 
+ <div class="row-about">
+ <div class="col-lg-12 text-left"><br>
+ <h2 class="darkblue">The process</h2>
+</div></div></div><br>
+
+
+ <section class="bg-light page-section" id="portfolio">
+ <div class="container">
+ <div class="row">
+
+<!-- IMG ZOOM -->
+ <a href="#img2b"><img src="../img/boarding2/process2.jpg" class="zoomNB"></a>
+ <a href="#_" class="lightbox" id="img2b"><img src="../img/boarding2/process2.jpg"></a>
+<!-- END IMG ZOOM -->
+
+
+
+</section>
+
+
+
+<hr>
+
+
+<!-- BACKGROUND -->
+
+<div class="container-p">
+ <section id="about">
+ <div class="row-about">
+ <div class="col-lg-12 text-left"><br>
+    <h2 class="project-title-s"><span class="KLMblue">Research</span></h2>  
+    <h2 class="KLMblue">Objectives</h2>
+<h5>
+      <ul></ul>
+      <li>learn the specific <strong>regulations</strong> of the entire boarding operations</li>
+      <li>understand the different <strong>phases of the boarding operations</strong></li>
+      <li>grasp how <strong>critical decisions</strong> are made</li>
+      <li>see all the digital and non digital <strong>tools</strong> currently used</li>
+      </ul>
+  </h5> 
+
+<br><br>
+
+ <h2 class="KLMblue">Shadowing & contextual inquiries</h2>
+ 
+<h5>To understand the complexity of the tasks and the crucial decision-making I had to see the <strong>other roles involved in the boarding process</strong>.
+<br>
+  
+</div>
+ </div></div></div>  
+</section>
+ <br>
+<!-- IMG ZOOM -->
+ <a href="#imgrA"><img src="../img/boarding2/researchA.png" class="zoomR"></a>
+ <a href="#_" class="lightbox" id="imgrA"><img src="../img/boarding2/researchA.png"></a>
+<!-- END IMG ZOOM -->
+ <br>
+
+
+
+<div class="container-p">
+<section id="about">
+ <div class="row-about">
+ <div class="col-lg-12 text-left"><br>
+
+
+<h2 class="KLMblue">User interviews</h2>
+ <h5>To clarify the processes I witnessed, I organized some in-depth interviews.<br></h5>
+
+</div>
+ </div></div></div>  
+</section>
+ <br>
+<!-- IMG ZOOM -->
+ <a href="#imgrB"><img src="../img/boarding2/researchB.png" class="zoomR4"></a>
+ <a href="#_" class="lightbox" id="imgrB"><img src="../img/boarding2/researchB.png"></a>
+<!-- END IMG ZOOM -->
+ <br>
+
+
+<div class="container-p">
+<section id="about">
+ <div class="row-about">
+ <div class="col-lg-12 text-left"><br>
+ 
+
+
+ <h2 class="KLMblue">Survey</h2>
+ <h5>Noticing some <strong>differences of opinion in the handling of the process</strong>, I gathered more quantitative data, to make the right choices during the ideation phase.</h5>
+
+</div>
+ </div></div></div>  
+</section>
+ <br>
+<!-- IMG ZOOM -->
+ <a href="#imgrC"><img src="../img/boarding2/researchC.png" class="zoomR4"></a>
+ <a href="#_" class="lightbox" id="imgrC"><img src="../img/boarding2/researchC.png"></a>
+<!-- END IMG ZOOM -->
+
+
+
+ <br> 
+<div class="container-p">
+ <section id="about">
+ <div class="row-about">
+ <div class="col-lg-12 text-left"><br>
+<h2 class="KLMblue">Findings</h2>
+<h5>
+      
+<span class="italic">Please note that I'll share here only generic or non-confidential insights. </span><br><br>
+      I <strong>structured the insights</strong> in an affinity diagram  and created the <strong>user journey</strong> of the gate agents, focusing on: the information needed at each stage of the process, the tasks and the interactions with the other staff.
+<br><br>
+The research showed that <strong>the boarding process can be split into 3 phases</strong>:   
+<ul></ul>
+    <li>Boarding preparation</li>
+    <li>Actual boarding</li>
+    <li>Finalization of the flight & reporting</li> </h5>
+
+  </ul>
+
+
+</div>  
+
+</section> 
+       </div>
+            </div>
+          </div>
+        
+  </section>     
+<br>
+ <hr>
+
+
+
+<div class="container-p">
+ <section id="about">
+ 
+ <div class="row-about"> 
+ <div class="col-lg-12 text-left"><br>
+
+<h2 class="project-title-s"><span class="KLMblue">Unexpected events</span></h2>
+ <h2 class="KLMblue">Budget cut</h2>
+ <h5>
+While ready to iterate on the prototypes created during the design sprint, the project got impacted by some budget decisions and <strong>its scope had to be reduced</strong>. I was now only allowed to work on improving the flight details page.<br><br></h5>
+
+ <h2 class="KLMblue">Idea</h2>
+  <h5>
+After passively accepting the situation at first, I discussed with the information analyst and together we came up with an intermediary solution that, <strong>for a small increment in the job size, would still bring a lot of user-business value</strong>.<br>
+Together we presented our idea to the PO, who gave us the go-ahead.</h5><br><br>
+</section>     
+
+
+</div>
+
+ <hr>
+
+<div class="container-p">
+ <section id="about">
+ 
+ <div class="row-about"> 
+ <div class="col-lg-12 text-left"><br>
+
+
+ <h2><span class="KLMblue">Towards the new MVP</span></h2><br>
+
+ <!-- Quote --> 
+ <div class="big_quote">
+ <h9>
+ How might we implement the 3 phases of the boarding process in the flight details page?<br> 
+ </h9>
+ </div><br>
+
+
+ <br>
+ <h2 class="KLMblue">Prototype & usability tests</h2>
+ <h5>In collaboration with the information and business analyst, I came up with a prototype and organized a <strong>usability test with the gate agents</strong>, focusing on the 2 most difficult tasks. The test-iteration cycle lasted 2 weeks. 
+</h5>
+
+
+</div>
+ </div></div></div>  
+</section>
+ <br>
+<!-- IMG ZOOM -->
+ <a href="#imgrD"><img src="../img/boarding2/researchD.png" class="zoomR"></a>
+ <a href="#_" class="lightbox" id="imgrD"><img src="../img/boarding2/researchD.png"></a>
+<!-- END IMG ZOOM -->
+
+<hr>
+ <br> 
+<!-- CHAPTER 5 - UI -->
+<div class="container-p">
+ <section id="about">
+ <div class="row-about"> 
+ <div class="col-lg-12 text-left">
+ <h2 class="project-title-s"><span class="KLMblue">Final design</span></h2>
+<h5>
+I tailored the process to the different phases of the boarding, <strong> with actionable information</strong> to empower ground staff in helping the passengers.
+<br><br>
+<h2 class="KLMblue">Phases</h2>
+<h5> The process is now split in 3 phases where only the relevant data is displayed, to avoid information overload and speeding up the page loading time.</h5>
+</div>
+</section>
+</div>
+
+<br>
+
+<!-- Portfolio Grid -->
+ <section class="bg-light page-section" id="portfolio">
+ <div class="container">
+ <div class="row">
+        <div class="col-md-4 col-sm-5 portfolio-item">
+
+<!-- IMG FEATURE ZOOM -->
+ <a href="#imgd1"><img src="../img/boarding2/detail1.jpg" class="img-fluid"></a>
+ <a href="#_" class="lightbox" id="imgd1"><img src="../img/boarding2/detail1.jpg"></a>
+<!-- END IMG ZOOM -->
+
+
+            <div class="portfolio-caption">
+            <h4><strong>Phase 1: Preparation</strong><br>Information on passengers requiring assistance or verification.<br></h4>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-sm-5 portfolio-item">
+<!-- IMG FEATURE ZOOM -->
+ <a href="#imgd2"><img src="../img/boarding2/detail2.jpg" class="img-fluid"></a>
+ <a href="#_" class="lightbox" id="imgd2"><img src="../img/boarding2/detail2.jpg"></a>
+<!-- END IMG ZOOM -->
+            <div class="portfolio-caption">
+            <h4><strong>Phase 2: Boarding</strong><br>Information on passengers priorities and boarding progress.<br></h4>
+          </div>
+        </div>
+       
+
+        <div class="col-md-4 col-sm-5 portfolio-item">
+<!-- IMG FEATURE ZOOM -->
+ <a href="#imgd3"><img src="../img/boarding2/detail3.jpg" class="img-fluid"></a>
+ <a href="#_" class="lightbox" id="imgd3"><img src="../img/boarding2/detail3.jpg"></a>
+<!-- END IMG ZOOM -->
+          <div class="portfolio-caption">
+           <h4><strong>Phase 3: Finalization</strong><br>Specific information on missing and standby passengers.</h4>
+          </div>
+        </div>
+
+</div>
+</section></div></div>
+ <br>
+
+
+<div class="container-p">
+ <section id="about">
+ <div class="row-about"> 
+ <div class="col-lg-12 text-left"><br><br>
+<h2 class="KLMblue">Smart passenger information</h2>
+<h5>
+The information <strong>adapts to the operational needs</strong>: during the boarding, only the list of not boarded passengers and the notification feature are displayed, before the boarding closes, the missing passengers and their specific information are retrieved.</h5>
+</h5>
+</div>
+</section>
+</div>
+
+<br>
+
+<!-- Portfolio Grid -->
+ <section class="bg-light page-section" id="portfolio">
+ <div class="container">
+ <div class="row">
+<div class="col-md-6 col-sm-5 portfolio-item">
+
+ <!-- IMG FEATURE ZOOM -->
+ <a href="#imgf3"><img src="../img/boarding2/feature3.jpg" class="img-fluid"></a>
+ <a href="#_" class="lightbox" id="imgf3"><img src="../img/boarding2/feature3.jpg"></a>
+<!-- END IMG ZOOM -->
+ <div class="portfolio-caption">
+<h4>Not boarded passengers</h4>
+
+ </div>
+ </div>
+
+ <div class="col-md-6 col-sm-5 portfolio-item">
+ <!-- IMG FEATURE ZOOM -->
+ <a href="#imgf4"><img src="../img/boarding2/feature4.jpg" class="img-fluid"></a>
+ <a href="#_" class="lightbox" id="imgf4"><img src="../img/boarding2/feature4.jpg"></a>
+<!-- END IMG ZOOM -->
+ <div class="portfolio-caption">
+ <h4>Missing passengers</h4>
+ </div>
+
+ </div>
+ </div></div> 
+
+
+
+
+
+
+
+<div class="container-p">
+<section id="about">
+
+<div class="row-about">     
+<div class="col-lg-12 text-left"><br><br>
+
+<h2><span class="KLMblue">Learnings & next steps</span></h2>
+
+<span class="Text TextStyles">
+<h5>
+After a second usability test, I delivered the designs to the developers, who are currently <strong>implementing it for Schiphol</strong>. <br>The functionality will later be adapted for the <strong>international airports</strong>, for which I already collected information through a <strong>remote user council</strong>.<br><br>
+The whole project was <strong>extremely complex</strong> and having to redefine it, because of the changes in scope, pretty challenging, but I'm happy my intermediary solution got accepted and most of the <strong>user-business value was preserved</strong>.<br><br>
+<!--
+<a href="boardingIS.html">Click here to read about the following phase of the project.</a>-->
+</h5>
+
+<br>
+</div></div>
+</section>  </div>
+
+<section>
+ <figure class="img-fluid-big">
+ <img src="../img/boarding2/final.jpg" width="80%">
+ </figure>
+</section>
+
+
+ <br> 
+ <section>
+ <div class="bg-white">
+ <hr><br>
+ <div class="bg-fam">
+ <div class="container">
+ <section class="project-section block-previous-next fam-project">
+ <div class="row">
+   <div class="col-sm-2"></div>
+ <div class="col-sm-6"><h4>👈 Previous</h4>
+ <a href="design-sprint.html">
+ <p class="lead">Design sprint</p>
+ </a>
+ </div>
+ <div class="col-sm-4"><h4>Next 👉</h4>
+ <a href="plug.html">
+ <p class="lead">Plug</p>
+ </a>
+ </div>
+ </div>
+</section>
+
+
+          
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="../vendor/jquery/jquery.min.js"></script>
+    <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="../vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Contact form JavaScript -->
+    <script src="../js/jqBootstrapValidation.js"></script>
+    <script src="../js/contact_me.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="../js/agency.min.js"></script>
+
+    <!-- Scroll horizontal with mouse wheel -->
+    <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js?ver=1.3.2'></script>
+    
+
+  </body>
+
+</html>
+
+
+

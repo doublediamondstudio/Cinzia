@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-161185121-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-161185121-1');
+</script>
+
+<!-- jquery -->
+<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js?ver=1.3.2'></script>
+<script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js'></script>
+<script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+      <meta name="robots" content="noindex">
+
+    <title>Cinzia Rota 👩🏻‍💻 UX/UI designer – Appy2Help: Boarding Phase 2</title>
+
+<!-- Bootstrap core CSS -->
+  <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+   <!-- Custom fonts for this template -->
+  <link href="../vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Custom styles for this template -->
+  <link href="../css/agency.min.css" rel="stylesheet">
+  <link href="../css/link.css" rel="stylesheet">
+  <style type= "text/css">
+   
+@font-face {
+    font-family: carinoi;
+    src: url('../css/fonts/carinoi.woff2') format('woff2'),
+         url('../css/fonts/carinoi.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+} 
+ 
+    @font-face {
+    font-family: carino;
+    src: url('../css/fonts/carino.woff2') format('woff2'),
+         url('../css/fonts/carino.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+    @font-face {
+    font-family: carinom;
+    src: url('../css/fonts/carinom.woff2') format('woff2'),
+         url('../css/fonts/carinom.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+    @font-face {
+    font-family: carinob;
+    src: url('../css/fonts/carinob.woff2') format('woff2'),
+         url('../css/fonts/carinob.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+      @font-face {
+      font-family: HankenGrotesk;
+      src: url('../css/fonts/HankenGrotesk-Regular.woff2') format('woff2');
+      }
+      @font-face {
+      font-family: HankenGroteskMedium;
+      src: url('../css/fonts/HankenGrotesk-Medium.woff2') format('woff2');
+      }
+      @font-face {
+      font-family: HankenGroteskBold;
+      src: url('../css/fonts/HankenGrotesk-Bold.woff2') format('woff2');
+      }
+      @font-face {
+      font-family: HankenGroteskBlack;
+      src: url('../css/fonts/HankenGrotesk-Black.woff2') format('woff2');
+      }
+
+
+    figure {
+      margin: 0 0 .2em 0;
+    }
+  </style>
+<!-- Hotjar Tracking Code for www.cinzia.me -->
+<script>
+  (function(h,o,t,j,a,r){
+      h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+      h._hjSettings={hjid:1279527,hjsv:6};
+      a=o.getElementsByTagName('head')[0];
+      r=o.createElement('script');r.async=1;
+      r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+      a.appendChild(r);
+  })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+
+<!-- Favicons -->
+<link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="img/favicon/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+<link rel="manifest" href="img/favicon/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="img/favicon/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+</head>
+
+  <body id="page-top">
+
+ 
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand js-scroll-trigger" href="../index.html">Cinzia Rota</a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+       
+
+      <i class="fas fa-bars"></i>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav text-uppercase ml-auto">
+        <li class="nav-item">
+
+<a class="nav-link js-scroll-trigger" href="boarding.html">Boarding pass scan</a>
+<a class="nav-link js-scroll-trigger" href="design-sprint.html">Design sprint</a>
+<a class="nav-link js-scroll-trigger" href="boarding2.html">Boarding</a>
+<a class="nav-link js-scroll-trigger" href="plug.html">Plug</a>
+<a class="nav-link js-scroll-trigger" href="travel.html">Flex travel</a>
+<a class="nav-link js-scroll-trigger" href="../small-deeds.html">Small deeds</a>
+<a class="nav-link js-scroll-trigger" href="../wellcom.html">Wellcom</a>
+<a class="nav-link js-scroll-trigger" href="../about.html">About</a>
+</li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+<!--END Navigation -->
+
+
+
+
+<section>
+                <figure class="img-fluid-big">
+                    <img src="../img/boarding2/finalS.jpg" width="80%">
+                   </figure>
+</section>
+
+
+ <div class="container-p">
+      <section id="about">
+          
+        <div class="row-about">
+            <div class="col-lg-12 text-left">
+                  <h1 class="project-title">Envisioning a <span class="violet">digital boarding process</span></h1>
+                 <h5>
+                 A design sprint to imagine <strong>how to digitize the whole boarding operations</strong> for KLM / Aifrance operated flights.     
+                    </h5><br><br><br>
+              </div>
+        </div>
+        </div>
+      </div>
+  </header>
+
+
+
+
+<!-- SKILLS -->
+<div class="container-bg">
+  <div class="container-skills">
+   <div class="row-skills">
+          <div class="col-lg-5 text-left">  <br>
+              <h14>Timeline </h14><br>
+              <h15>2019 - 1 week<br><br>
+              <h14>Client </h14><br>
+              KLM / Air France<br><br>
+
+            <h14>My role</h14><br>
+              User research, UX strategy, UI design, Usability testing<br></h15>
+              
+  
+              <br>
+            </div>
+              <div class="col-lg-1 text-left">  </div>
+            <div class="col-lg-6 text-left">  <br>
+              <h14>Team</h14><br>
+              <h15>Facilitator, Customer experience manager, 2 product managers, Product Owner, 2 designers, 2 UX researchers<br><br>
+
+              <h14>Tools & methods</h14><br>
+              Mapping, ask the expert, How Might We, lightning demos, Crazy 8s, Solution sketch, Art museum, heat map, speed critique, straw poll, supervote, all-in-one, storyboard, hi-def prototype, usability test, Sketch, Invision<br><br>
+            </div>
+
+            </div>
+          </div>
+      </div>
+    </div>
+
+</div>
+</div>
+
+<br><br>
+<div class="container-p">
+      <section id="about">
+        <div class="row-about">
+            <div class="col-lg-12 text-left"><br>
+
+
+              <h2 class="project-title-s"><span class="violet">Summary</span><br></h2>
+              
+<h2 class="violet">Goal</h2>
+               <h5>
+  <h5><span class="Text TextStyles">
+Following the successful implementation of the <a href="boarding.html">digital scan of the boarding passes</a>, KLM wanted to <strong>support the whole boarding operations</strong> via its app Appy2Help.
+<br><br>
+In september 2019, the product owner initiated a design sprint of 5 days to co-create the new boarding process <strong>with the key stakeholders</strong>.</span></h5>
+
+
+<br>
+
+
+
+<h2 class="violet">My role</h2>
+<h5>
+My role was to <strong>help out the facilitator with the organization and guiding the participants</strong>.
+I also contributed to the final design solution – as my idea and the one of the product owner were selected. Together with the other designer I created the prototype and tested it.
+</h5>
+<br>
+
+
+          <h2 class="violet">Outcome</h2>
+          <h5>We set the basis for this new complex functionality coming up with a design solution satifying all the stakeholders.
+
+ </div><br>
+              <div>
+              <br>
+              <img class="img-fluid-center" src="../img/boarding2/ds1.jpg" alt="" height="auto">
+              <h10>The design sprint in progress</h10>
+              <br>  
+              </div> 
+</div>
+
+</div>
+
+<br>
+
+  <hr>
+</div>
+           
+</div>
+              </section> 
+
+
+
+      <div class="container-p">
+      <section id="about">
+          
+        <div class="row-about">
+            <div class="col-lg-12 text-left">
+              
+        <h2 class="project-title-s"><span class="violet">The design sprint week</span></h2> 
+<br>  
+          <h2 class="violet">Day #1: Map </h2><br>
+
+            <h5>During the first day the product owner <strong>clarified the goal</strong> of the project which was to create a feature for Appy2Help.
+              In order to have a manageable scope, we <strong>mapped the different phases</strong> of the boarding operations and decided on which phase to focus, than proceeded to  set the long-term goal.  
+ <br><br>
+              
+<h5>
+We later listened and <span class="italic">interviewed four experts</span>: 2 researchers and 2 stakeholders presented the <strong>pain points and needs</strong> of their department, concerning the boarding process and two UX researchers shared with us their insights.<br><br>
+
+<div>
+                <img class="img-fluid-center" src="../img/boarding2/ds2.jpg" alt="" height="auto">
+                <h10>Organizing the insights</em><br></h10>
+                <br>
+              </div>       
+
+
+The participants wrote their <span class="italic">How Might We</span> notes on post-its and placed them on the wall. I <span class="italic">clustered</span> the post-its and labelled the themes on new ones.
+We <span class="italic">dot voted the insights</span> and discussed the outcome.
+</h5>
+
+<br><br>
+ <div class="big_quote">
+ <h9>
+How might we make the digital boarding process more efficient and more customer centered?<br> 
+ </h9>
+ </div><br>
+              
+ 
+      <br>     
+
+
+
+               <h2 class="violet">Day #2: Sketch </h2><br>
+            <h5>During the second day, some of us did a
+<span class="italic">lightning demo</span> on some interesting solutions made by other companies and I captured them on paper.<br><br>
+
+
+<div>
+                <img class="img-fluid-center" src="../img/boarding2/ds22.jpg" alt="" height="auto">
+                <h10>Sketches of the main insights</em><br></h10>
+                <br>
+              </div>    
+
+              All the participants took notes, than sketched some ideas using the <span class="italic">Crazy 8s</span> and <span class="italic">Solution sketch </span><strong>ideation methods</strong>, and came up with a proposal each. 
+              </h5>
+               <br>
+              <div>
+                <img class="img-fluid-center" src="../img/boarding2/sketch2.jpg" alt="" height="auto">
+                <h10>Ideation session</em><br></h10>
+                <br>
+              </div>
+ 
+         
+<br>
+             <h2 class="violet">Day #3: Decide </h2><br>
+             <h5>On the third day we put all the sketches on the wall as an <span class="italic">Art museum</span>, reviewed them in silence and created a <span class="italic">heat map</span> by <span class="italic">dot voting</span> the best ideas.<br><br>
+              In a <span class="italic">speed critique</span>, we discussed the <strong>highlights of each solution</strong> and did a <span class="italic">straw poll</span> to choose our favorite idea, while the product owner also gave her <span class="italic">supervote</span>.
+               <br><br><strong>My sketch and the product owner's</strong> got most of the votes.</h5>
+ <br>
+            
+              <div>
+                <img class="img-fluid-center" src="../img/boarding2/ds3.jpg" alt="" height="auto">
+                <h10>From the left: the PO's sketch and mine </em><br></h10>
+                <br>  
+
+
+
+
+         
+<h2 class="violet">My ideas for the feature</h2>
+<h5>
+ <ul></ul>
+<li>Contextual dashboard based on time & circumstances</li>
+<li>Provide actionable data to accompany the agents throughout all the process</li>
+<li>Triggers for proactive ancillary sales</li>
+<li>One-click messages to the passenger (ex. "Please come to the desk for a passport check")</li>
+ </h5> 
+<br>
+
+<h2 class="violet">My suggestions for requirements </h2>
+<h5>
+ <ul></ul>
+<li>Real time information</li>
+<li>Accurate data</li>
+<li>Automatize repetitive tasks</li>
+ </h5> 
+              </div> 
+<br><br>
+            <h2 class="violet">Day #4: Prototype </h2><br>
+             <h5>Together with the other designer we turned the best ideas into a <strong>storyboard</strong> and shared the work on the wireframes. We later combined them into a <span class="italic">prototype</span>, checked it with the product owner and got everything ready for the <span class="italic">usability test</span>.
+             </h5><br>
+<div>
+                <img class="img-fluid-center" src="../img/boarding2/storyboard.jpg" alt="" height="auto">
+                <h10>Refining the storyboard</em><br></h10>
+                <br>
+              </div> 
+
+<br>
+ <br>
+
+            <h2 class="violet">Day #5: Test </h2><br>
+            <h5>After setting up the interview room, the camera and the screens, I did 5 <strong>usability tests</strong> together with the UX researcher, while the rest of the group was watching in another room.
+               <br><br>
+<div>
+                <img class="img-fluid-center" src="../img/boarding2/usability-test.jpg" alt="" height="auto">
+                <h10>Following the usability test</em><br></h10>
+                <br>
+              </div> 
+
+            We all wrote down notes, that we mapped on the wall, resulting in a wealth of <strong>shared user insights</strong>.
+            We looked for patterns and organized them.
+            After a discussion on the main findings, we ended up with a list of concrete actions to work on.
+
+              <div>
+                 <br>
+                <img class="img-fluid-center" src="../img/boarding2/user-insights.jpg" alt="" height="auto">
+                <h10>The wall of insights</em><br></h10>
+                <br>  
+              </div> 
+
+  </div>
+           
+</div>
+              </section> 
+
+</div>
+
+<hr>
+
+      <div class="container-p">
+      <section id="about">
+          
+        <div class="row-about">     
+          <div class="col-lg-12 text-left"><br>
+            <h2 class="project-title-s"><span class="violet">Learnings & next steps</span></h2>
+
+<span class="Text TextStyles">
+<h5>
+
+The design sprint was a very insightful experience: having all the stakeholders together in one room, made us all <strong>understand with clarity other departments' goals and empathize</strong> with them. 
+<br><br>
+Unfortunately, <strong>user insights weren't taken much into account during the sprint</strong> and the result of the test was far from satisfying. <br>
+My UX designer colleague left the company after the sprint, so <strong>I took the lead of the project</strong> and, starting from the outcome of the usability test, I embarked into a research phase.<br><br>
+<a href="boarding2.html">Click here to read about the following phase of the project.</a>
+
+
+</h5>
+
+
+
+<br>
+<br>
+
+
+
+</div></div>
+</section>  </div>
+ <br> 
+<section>
+                <figure class="img-fluid-big">
+                    <img src="../img/boarding2/initialS.jpg" width="80%">
+                   </figure>
+</section>
+
+
+
+ <section>
+ <div class="bg-white">
+ <hr><br>
+ <div class="bg-fam">
+ <div class="container">
+ <section class="project-section block-previous-next fam-project">
+ <div class="row">
+   <div class="col-sm-2"></div>
+ <div class="col-sm-6"><h4>👈 Previous</h4>
+ <a href="boarding.html"> 
+ <p class="lead">Boarding pass scan</p>
+ </a>
+ </div>
+ <div class="col-sm-4"><h4>Next 👉</h4>
+ <a href="boarding2.html">
+ <p class="lead">Boarding process</p>
+ </a>
+ </div>
+ </div>
+</section>
+
+
+          
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="../vendor/jquery/jquery.min.js"></script>
+    <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="../vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Contact form JavaScript -->
+    <script src="../js/jqBootstrapValidation.js"></script>
+    <script src="../js/contact_me.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="../js/agency.min.js"></script>
+
+    <!-- Scroll horizontal with mouse wheel -->
+    <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js?ver=1.3.2'></script>
+    
+
+  </body>
+
+</html>
+
+
+

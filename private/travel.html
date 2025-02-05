@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-161185121-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-161185121-1');
+</script>
+
+<!-- jquery -->
+<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js?ver=1.3.2'></script>
+<script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js'></script>
+<script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+      <meta name="robots" content="noindex">
+    
+    <title>Cinzia Rota 👩🏻‍💻 UX/UI designer – Flexible search</title>
+
+<!-- Bootstrap core CSS -->
+  <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+  <link href="../vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Custom styles for this template -->
+  <link href="../css/agency.min.css" rel="stylesheet">
+  <link href="../css/link.css" rel="stylesheet">
+  <style type= "text/css">
+   
+@font-face {
+    font-family: carinoi;
+    src: url('../css/fonts/carinoi.woff2') format('woff2'),
+         url('../css/fonts/carinoi.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+   
+    @font-face {
+    font-family: carino;
+    src: url('../css/fonts/carino.woff2') format('woff2'),
+         url('../css/fonts/carino.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+    @font-face {
+    font-family: carinom;
+    src: url('../css/fonts/carinom.woff2') format('woff2'),
+         url('../css/fonts/carinom.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+    @font-face {
+    font-family: carinob;
+    src: url('../css/fonts/carinob.woff2') format('woff2'),
+         url('../css/fonts/carinob.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+      @font-face {
+      font-family: HankenGrotesk;
+      src: url('../css/fonts/HankenGrotesk-Regular.woff2') format('woff2');
+      }
+      @font-face {
+      font-family: HankenGroteskMedium;
+      src: url('../css/fonts/HankenGrotesk-Medium.woff2') format('woff2');
+      }
+      @font-face {
+      font-family: HankenGroteskBold;
+      src: url('../css/fonts/HankenGrotesk-Bold.woff2') format('woff2');
+      }
+      @font-face {
+      font-family: HankenGroteskBlack;
+      src: url('../css/fonts/HankenGrotesk-Black.woff2') format('woff2');
+      }
+
+
+    figure {
+      margin: 0 0 .2em 0;
+    }
+  </style>
+<!-- Hotjar Tracking Code for www.cinzia.me -->
+<script>
+  (function(h,o,t,j,a,r){
+      h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+      h._hjSettings={hjid:1279527,hjsv:6};
+      a=o.getElementsByTagName('head')[0];
+      r=o.createElement('script');r.async=1;
+      r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+      a.appendChild(r);
+  })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+
+<!-- Favicons -->
+<link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="img/favicon/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+<link rel="manifest" href="img/favicon/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="img/favicon/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+</head>
+
+  <body id="page-top">
+
+ 
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand js-scroll-trigger" href="../index.html">Cinzia Rota</a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+       
+
+      <i class="fas fa-bars"></i>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav text-uppercase ml-auto">
+        <li class="nav-item">
+
+<a class="nav-link js-scroll-trigger" href="boarding.html">Boarding pass scan</a>
+<a class="nav-link js-scroll-trigger" href="design-sprint.html">Design sprint</a>
+<a class="nav-link js-scroll-trigger" href="boarding2.html">Boarding</a>
+<a class="nav-link js-scroll-trigger" href="plug.html">Plug</a>
+<a class="nav-link js-scroll-trigger" href="travel.html">Flex travel</a>
+<a class="nav-link js-scroll-trigger" href="../small-deeds.html">Small deeds</a>
+<a class="nav-link js-scroll-trigger" href="../wellcom.html">Wellcom</a>
+<a class="nav-link js-scroll-trigger" href="../about.html">About</a>
+</li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+<!--END Navigation -->
+
+<section>
+                <figure class="img-fluid-big">
+                    <img src="../img/flextravel/initial.jpg" width="80%">
+                   </figure>
+</section>
+
+
+ <div class="container-p">
+      <section id="about">
+          
+        <div class="row-about">
+            <div class="col-lg-12 text-left">
+                  <h1 class="project-title">Fly <span class="strawberry">anywhere, anytime</span></h1>
+                 
+                 <h5>
+                 FlexTravel is a <strong>non-destination based</strong> flight search, tailored to people need of flexibility and budget, but also their personal holiday preferences.  
+                    </h5><br><br><br>
+              </div>
+        </div>
+        </div>
+      </div>
+  </header>
+
+
+
+<!-- SKILLS -->
+<div class="container-bg">
+  <div class="container-skills">
+   <div class="row-skills">
+          <div class="col-lg-5 text-left">  <br>
+              <h14>Timeline </h14><br>
+              <h15>2019 - 3 days<br><br>
+              <h14>Client </h14><br>
+              KLM / Air France<br></h15>
+
+              
+              <br>
+            </div>
+              <div class="col-lg-1 text-left">  </div>
+            <div class="col-lg-6 text-left">  <br>
+              <h14>Tools</h14><br>
+              <h15>Overflow, Sketch, Invision, Origami<br><br>
+
+              <h14>My role</h14><br>
+              Concept development, UX, UI design</h15>
+            </div>
+
+            </div>
+          </div>
+      </div>
+    </div>
+
+</div>
+</div>
+
+<br><br>
+<!-- END SKILLS -->
+       
+
+
+<div class="container-p">
+      <section id="about">
+          
+        <div class="row-about">
+            <div class="col-lg-12 text-left"><br><br>
+             <h2 class="strawberry">Goal</h2>
+              <h5>
+                KLM was willing to develop <strong>more flexible tools for booking</strong> flights.
+                <br> My goal was to help passengers find a holiday destination tailored to their needs and preferences. The project was imagined for KLM innovation days.
+             </h5>
+ <br>
+
+             <div class="big_quote">
+          <h9>
+             How might we help our customers search for flights without having a particular destination in mind?<br>  
+          </h9>
+        </div><br><br>
+             
+             <h2 class="strawberry">Constraints</h2>
+             <h5>The search functionality had to:
+              <ul></ul>
+                <li>be <strong>unrelated to specific destinations</strong></li>
+                <li>offer <strong>flexibility</strong> in terms of dates and timespan</li>
+                <li>take into account <strong>budget, travel lenght and destination highlights</strong></li>
+                </ul>
+            </h5>   
+
+
+
+
+ <br><br>
+
+
+</div>
+</div>
+
+  </section>
+
+</div>
+<hr>
+
+<br>
+
+<!-- CHAPTER 3 - MVP -->
+<div class="container-p">
+  <section id="about">
+    <div class="row-about">     
+      <div class="col-lg-12 text-left">
+        <h2 class="project-title-s"><span class="strawberry">Research</span></h2>
+
+<h2 class="strawberry">Benchmarking</h2>
+            <h5>
+
+              To see how the problem had already been approached, I did a competitive analysis of <strong>other airlines</strong>, as well as of <strong>price aggregators and analogous businesses</strong>.</h5>
+
+<br>
+             <h2 class="strawberry">Main insights</h2>
+             <h5>
+              <ul></ul>
+                <li>Flight search is almost always <strong>destination-based</strong></li>
+                <li>Existing flexible search options are <strong>confusing</strong></li>
+                <li>Time and/or duration options are <strong>very limited</strong></li>
+                <li>It's rare to find a search by activities, interests and weather</li>
+                <li>When more options are offered, the <strong>search returned poor or no results</strong></li>
+                </ul>
+            </h5>   
+
+
+<br>
+    <h2 class="strawberry">Secondary sources</h2> 
+    <h5>To understand <strong>travelers orientation behavior</strong>, I went through existing research and created a persona: Sara, a millennial looking for inspiration for a girls' trip.</h5>
+</ul>
+<br><br>
+
+  <h10>Click to zoom<h10>  
+                 
+            </div>
+          </div>
+          
+    </section>        
+
+    </div>
+    
+
+
+<section>
+<div class="scrolling-wrapper">
+
+ <figure class="item">
+ <a href="#img8"><img src="../img/flextravel/persona.png" class="zoom"></a>
+ <figcaption2 class="caption2">Persona</figcaption2>
+ </figure>
+ <a href="#_" class="lightbox" id="img8"><img src="../img/flextravel/persona.png"></a>
+
+  <figure class="item">
+ <a href="#img22"><img src="../img/flextravel/benchmark.png" class="zoom"></a>
+ <figcaption2 class="caption2">Wireframes</figcaption2>
+ </figure>
+ <a href="#_" class="lightbox" id="img22"><img src="../img/flextravel/benchmark.png"></a>
+         
+
+<br><br>
+
+
+</div>  
+</section> 
+
+<br>  <br>
+
+<div class="container-p">
+
+    <h2 class="strawberry">User jobs</h2>
+<br>
+                    <div class="big_quote">
+                      <h9>
+                        When looking for a trip on KLM, I want to be able to make a search without a particular destination in mind, so that I can be inspired
+   </h9>
+                  </div><br><br>
+                  <div class="big_quote">
+                      <h9>
+                          When making a search, I want to be able to easily set my preferences, so that I can find what suits me best.
+ 
+                      </h9>
+                  </div><br>
+
+
+</div>  
+</section> 
+<br><br>
+</div>
+<hr> 
+<br>
+<!-- CHAPTER 5 - UI -->
+<div class="container-p">
+    <section id="about">
+      <div class="row-about">     
+        <div class="col-lg-12 text-left">
+           <h2 class="project-title-s"><span class="strawberry">Ideation</span></h2>
+<h2 class="strawberry">Scoping the functionality</h2> 
+
+
+<h5>
+Based on the assumptions that it's <strong>a round trip from/to the same airport</strong>,  the destinations are <strong>connected to local information, activities and weather</strong> and the group agrees on the travel preferences, I defined the requirements for the MVP:
+              <ul></ul>
+                <li>Departure airport</li>             
+                <li>Dates (timespan, time of the week, flexibility)</li>
+                <li>Number of passengers</li>
+                <li>Max budget</li>
+                <li>Max travel lenght</li>
+                <li>Local highlights (vibe, activities, weather)</li>
+              </ul></h5>
+<br><br>
+
+<h2 class="strawberry">Design principles</h2> 
+              <h5>For a successful functionality, certain design principles seemed necessary:
+<ul></ul>
+              <li><strong>reliability</strong>: getting accurate results based on users preferences</li>
+              <li><strong>clarity</strong>: using unequivocal UI elements and UX writing</li>
+              <li><strong>versatility</strong>: offering flexible combinations and destinations comparison</li>
+              <li><strong>transparency</strong> on the trip (lenght, departure times, changes, prices)</li>
+              <li>user <strong>satisfaction</strong>: by always displaying results (even when not all requirements match), and abiding by the minimum budget</li></ul></h5>
+</div>
+  
+       <br><br><br>
+<h10>Click to zoom<h10>  
+             </div>
+            </div>
+          </div>
+        
+  </section>       
+
+
+<!-- Images -->
+<section>
+    <div class="scrolling-wrapper">
+
+            <figure class="item">
+            <a href="#img18"><img src="../img/flextravel/UserFlow.png" class="zoom"></a>
+            <figcaption class="caption2">User flow</figcaption></figure>
+            <a href="#_" class="lightbox" id="img18"><img src="../img/flextravel/UserFlow.png"></a>
+         
+            <figure class="item">
+            <a href="#img19"><img src="../img/flextravel/WireFlow.png" class="zoom"></a>
+            <figcaption class="caption2">Wire flow</figcaption></figure>
+            <a href="#_" class="lightbox" id="img19"><img src="../img/flextravel/WireFlow.png"></a>
+
+             
+        </div>  
+</section> 
+<br><br>
+
+
+<!-- CHAPTER 5 - UI -->
+<div class="container-p">
+    <section id="about">
+      <div class="row-about">     
+        <div class="col-lg-12 text-left">
+<h2 class="project-title-s"><span class="strawberry">Design</span></h2>
+
+<!-- Text -->       
+      <h5>The Innovation days being timeboxed, I sketched an interface, quickly tested it with 3 colleagues, skipped the wireframing and delivered a high-fidelity prototype, <strong>using KLM design system</strong>.
+<br><br>
+                FlexTravel offers KLM potential passengers a non-destination based search with flexible dates. The search is also tailored to local highlights, budget and distance.
+                </h5>
+
+ </div> </div> </div><br>
+</section>
+
+
+
+ 
+        <div class="col-lg-12 text-left">
+
+
+   <a href="#img7"><img class="img-center" src="../img/portfolio/flexTravel.gif" class="zoom" width="40%"></a>
+      <a href="#_" class="lightbox" id="img7"><img src="../img/portfolio/flexTravel.gif"></a>
+
+   <br>   <br>
+
+   <div class="container-p"><br><br>
+              <h2 class="strawberry">Features</h2>
+
+  </div></div>
+</div>
+
+</section>
+
+<!-- Portfolio Grid -->
+  <section class="bg-light page-section" id="portfolio">
+    <div class="container">
+   
+
+   <br>
+      <div class="row">
+        <div class="col-md-4 col-sm-5 portfolio-item">
+<!-- IMG FEATURE ZOOM -->
+ <a href="#imgf1"><img src="../img/flextravel/feature1.jpg" class="img-fluid"></a>
+ <a href="#_" class="lightbox" id="imgf1"><img src="../img/flextravel/feature1.jpg"></a>
+<!-- END IMG ZOOM -->
+            <div class="portfolio-caption">
+            <h4><strong>Find a destination</strong><br>Don't know where to go? Find a destination tailored to your preferences</h4>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-sm-5 portfolio-item">
+<!-- IMG FEATURE ZOOM -->
+ <a href="#imgf2"><img src="../img/flextravel/feature2.jpg" class="img-fluid"></a>
+ <a href="#_" class="lightbox" id="imgf2"><img src="../img/flextravel/feature2.jpg"></a>
+<!-- END IMG ZOOM -->
+            <div class="portfolio-caption">
+            <h4><strong>Flexible timeframes</strong><br>Select a timeframe from date to date or on multiple weekends<br><br></h4>
+          </div>
+        </div>
+       
+ <div class="col-md-4 col-sm-5 portfolio-item">
+<!-- IMG FEATURE ZOOM -->
+ <a href="#imgf3"><img src="../img/flextravel/feature3.jpg" class="img-fluid"></a>
+ <a href="#_" class="lightbox" id="imgf3"><img src="../img/flextravel/feature3.jpg"></a>
+<!-- END IMG ZOOM -->
+          <div class="portfolio-caption">
+           <h4><strong>Flexible weekends</strong><br>Keep your options open to find the most convenient solutions<br><br></h4>
+          </div>
+        </div>
+
+
+</div><br><br><br>
+ <div class="row">
+        <div class="col-md-4 col-sm-5 portfolio-item">
+  
+<!-- IMG FEATURE ZOOM -->
+ <a href="#imgf4"><img src="../img/flextravel/feature4.jpg" class="img-fluid"></a>
+ <a href="#_" class="lightbox" id="imgf4"><img src="../img/flextravel/feature4.jpg"></a>
+<!-- END IMG ZOOM -->
+            <div class="portfolio-caption">
+            <h4><strong>Multiple options</strong><br>You can choose the number of passengers, the maximum budget and travel time</h4>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-sm-5 portfolio-item">
+ <!-- IMG FEATURE ZOOM -->
+ <a href="#imgf5"><img src="../img/flextravel/feature5.jpg" class="img-fluid"></a>
+ <a href="#_" class="lightbox" id="imgf5"><img src="../img/flextravel/feature5.jpg"></a>
+<!-- END IMG ZOOM -->
+            <div class="portfolio-caption">
+            <h4><strong>Destination highlights</strong><br>Choose your destination based on the weather, the environment and the activities</h4>
+          </div>
+        </div>
+       
+
+        <div class="col-md-4 col-sm-5 portfolio-item">
+<!-- IMG FEATURE ZOOM -->
+ <a href="#imgf6"><img src="../img/flextravel/feature6.jpg" class="img-fluid"></a>
+ <a href="#_" class="lightbox" id="imgf6"><img src="../img/flextravel/feature6.jpg"></a>
+<!-- END IMG ZOOM -->
+          <div class="portfolio-caption">
+           <h4><strong>Here's your favorite destinations</strong><br>Choose your favorite destination in a selection based on your criteria<br></h4><br>
+          </div>
+        </div>
+
+
+      </div>
+      <br>
+    </div>
+ </div></div> 
+
+</section>
+
+ </div>  
+</h5>
+
+
+</div>
+
+</section>
+
+
+
+
+<!-- CHAPTER 6 - Animations -->
+<div class="container-p">
+  <section id="about">
+    <div class="row-about">     
+      <div class="col-lg-12 text-left"><br>
+        <h2><span class="strawberry">Learnings</span></h2>
+
+         <h5>
+          Due to the nature of the project, I wasn't able to do any further tests, but I noted some ideas for <strong>future developments</strong>, like:
+<ul></ul>
+          <li>Already displaying the maximum flight lenght, based on passengers preferences</li>
+          <li>Show alternative airports</li>
+          <li>Let the users sort the results</li>
+          <li>Have a map with a price calendar</li>
+          <li>Offer the possibility to share the bill</li>
+</ul> 
+        </h5>  
+            <br>
+
+
+<span class="Text TextStyles"> 
+<h5><a href="https://invis.io/5DWVWJGGXHN" target="_blank">Click here to try the prototype</a></h5>
+        
+</span>
+            </div>
+          </div>
+       </div>
+      </section> 
+
+<br><br><br>
+
+
+
+<section>
+                <figure class="img-fluid-big">
+                    <img src="../img/flextravel/final.jpg" width="80%">
+                   </figure>
+</section>
+
+
+<section>
+ <div class="bg-white">
+ <hr><br>
+ <div class="bg-fam">
+ <div class="container">
+ <section class="project-section block-previous-next fam-project">
+ <div class="row">
+   <div class="col-sm-2"></div>
+ <div class="col-sm-6"><h4>👈 Previous</h4>
+ <a href="plug.html">
+ <p class="lead">Plug</p>
+ </a>
+ </div>
+ <div class="col-sm-4"><h4>Next 👉</h4>
+ <a href="../small-deeds.html">
+ <p class="lead">Small deeds</p>
+ </a>
+ </div>
+ </div>
+</section>
+
+
+
+          
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="../vendor/jquery/jquery.min.js"></script>
+    <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="../vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Contact form JavaScript -->
+    <script src="../js/jqBootstrapValidation.js"></script>
+    <script src="../js/contact_me.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="../js/agency.min.js"></script>
+
+    <!-- Scroll horizontal with mouse wheel -->
+    <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js?ver=1.3.2'></script>
+    
+
+  </body>
+
+</html>
