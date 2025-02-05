@@ -1,0 +1,131 @@
+
+
+.TextStyles p {
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: -.5px;
+    color: #262c30;
+    margin-bottom: 32px
+}
+
+.TextStyles a {
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(65%, transparent), color-stop(10%, #b2daef));
+    background-image: linear-gradient(180deg, transparent 65%, #b2daef 0);
+    background-size: 0 100%;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    -webkit-transition: background-size .4s ease;
+    transition: background-size .4s ease;
+    color: #237aa6;
+    border-bottom: 1px solid #237aa6;
+
+}
+
+.TextStyles a:focus,
+.TextStyles a:hover {
+    background-size: 100% 100%;
+    cursor: pointer
+}
+
+@media (max-width:34.365em) {
+    .TextStyles p {
+        font-size: 15px;
+        line-height: 27px
+    }
+}
+
+.TextStyles p b,
+.TextStyles p strong {
+    color: #000
+}
+
+@media (max-width:34.365em) {
+    .TextStyles p {
+        margin-bottom: 20px
+    }
+}
+
+.TextStyles p:not(:first-child) {
+    margin-top: 32px
+}
+
+@media (max-width:34.365em) {
+    .TextStyles p:not(: first-child) {
+        margin-top: 10px
+    }
+}
+
+.TextStyles p strong {
+    color: #000
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.TextStyles2 p {
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: -.5px;
+    color: #262c30;
+    margin-bottom: 32px
+}
+
+.TextStyles2 a {
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(65%, transparent), color-stop(10%, #b2daef));
+    background-image: linear-gradient(180deg, transparent 65%, #b2daef 0);
+    background-size: 0 100%;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    -webkit-transition: background-size .4s ease;
+    transition: background-size .4s ease;
+    color: #237aa6;
+
+}
+
+.TextStyles2 a:focus,
+.TextStyles2 a:hover {
+    background-size: 100% 100%;
+    cursor: pointer
+}
+
+@media (max-width:34.365em) {
+    .TextStyles2 p {
+        font-size: 15px;
+        line-height: 27px
+    }
+}
+
+.TextStyles2 p b,
+.TextStyles2 p strong {
+    color: #000
+}
+
+@media (max-width:34.365em) {
+    .TextStyles2 p {
+        margin-bottom: 20px
+    }
+}
+
+.TextStyles2 p:not(:first-child) {
+    margin-top: 32px
+}
+
+@media (max-width:34.365em) {
+    .TextStyles2 p:not(: first-child) {
+        margin-top: 10px
+    }
+}
+
+.TextStyles2 p strong {
+    color: #000
+}
